@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+.container{
+    width: 375px;
+    height: 520px;
+    background-color: aquamarine;
+    border-radius:15px ;
+    box-shadow:4px 4px 30px;
+    padding: 20px;
+    overflow-y: scroll;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+    margin :auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center ;
+}
+.container form{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+#search-item{
+   border: none; 
+   outline: none;
+   box-shadow: none;
+   width: 80%;
+   margin-left: 20px;
+   font-size: 16px;
+   font-weight:600px;
+   padding:8px 10px ;
+   border-radius: 15px;
+   
+   
+}
+.img{
+    width:150px;
+    height: 150px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.product .p-details{
+    padding-left: 15px;
+}
+.product .p-details h2{
+    font-size: 20px;
+    color: blueviolet;
+}
+.product .p-details h3{
+    font-size: 17px;
+}
+.product-list{
+    padding:20px 0 ;
+}
+.alt{
+    display: none;
+}
+
